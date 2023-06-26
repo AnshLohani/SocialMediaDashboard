@@ -9,8 +9,8 @@ These are the files to our school project: Social Media Analysis System
 
 
 # Modules used in this project: 
-1) mysql-connector '''{To intall: pip install mysql-connector}'''
-2) instagramy '''{To install: pip install intagramy}''' --This is not a part of the project as currently its not working as intended
+1) mysql-connector    '''{To intall: pip install mysql-connector}'''
+2) instagramy    '''{To install: pip install intagramy}''' --This is not a part of the project as currently its not working as intended
 
 
 Participants:
