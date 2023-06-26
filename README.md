@@ -4,8 +4,8 @@ Social Media Dashboard Python and SQL code
 Hello,
 These are the files to our school project: Social Media Analysis System
 
-# PYTHONmain.py ----> All the main code the alter/update/etc. the SQL Database
-# InstagramAPI test ----> The API code (Testing if it works) {not the main part of our project}
+PYTHONmain.py ----> All the main code the alter/update/etc. the SQL Database
+ InstagramAPI test ----> The API code (Testing if it works) {not the main part of our project}
 
 
 # Modules used in this project: 
