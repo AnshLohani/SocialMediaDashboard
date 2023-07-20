@@ -2,6 +2,8 @@ import mysql.connector
 con = mysql.connector.connect(host='LocalHost',user='root',password='dps123',database='insta')
 cur = con.cursor()
 
+cur.execute("create table account(acc_name varchar(20),username varchar(20),password varchar(20))")
+
 if con.is_connected():
     print("Connected")
 
@@ -18,8 +20,7 @@ while ch=='y' or ch=='Y':
             print("Account Created")
         else:
             print("Please retry")
-        sql = "insert into acc(acc_name,username,password) values(%s,%s,%s)"
+        sql = "insert into account(acc_name,username,password) values(%s,%s,%s)"
         val = (a,b,c)
         cur.execute(sql,val)
         con.commit()
-        
